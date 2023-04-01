@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <title>A.R.E | Ecommerce</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <!-- Navbar Section  -->
+        <div class="navbar">
+          <div class="logo">
+            <img src="./Image/logo.ico" width="50px" alt="" />
+          </div>
+
+          <nav>
+            <ul id="menuItems">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Account</a></li>
+            </ul>
+          </nav>
+
+          <i class="fa-solid fa-cart-shopping"></i>
+          <img
+            src="./Image/menu.png"
+            class="menu-icon"
+            onclick="menuToggle()"
+          />
+        </div>
+
+        <!-- Row Section -->
+        <div class="row">
+          <div class="col-2">
+            <h1>
+              Give Your Workout <br />
+              A New Style!
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis
+              eveniet, optio molestiae unde est necessitatibus illo tenetur
+              deleniti dolor ducimus!
+            </p>
+            <a href="#" class="btn">Explore Now &#8594;</a>
+          </div>
+          <div class="col-2"><img src="./Image/shoe2.jpg" alt="" /></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Featured Category -->
+    <div class="categories">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <img src="./Image/top1.jpg" alt="" />
+          </div>
+          <div class="col-3">
+            <img src="./Image/fs1.jpg" alt="" />
+          </div>
+          <div class="col-3">
+            <img src="./Image/shoe1.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Featured Product -->
+    <div class="small-container">
+      <h2 class="title">Featured Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="./Image/fs2.jpg" alt="" />
+          <h4>Purple Female Sandal</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$10.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./Image/fs3.jpg" alt="" />
+          <h4>Dark Ash Female Sandal</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$10.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./Image/shoe4.jpg" alt="" />
+          <h4>Black Shoe</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$10.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./Image/sand4.jpg" alt="" />
+          <h4>Black Male Sandal</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$10.00</p>
+        </div>
+      </div>
+
+      <h2 class="title">Latest Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="./Image/top3.jpg" alt="" />
+          <h4>Purple Female Sandal</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$10.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./Image/top4.jpg" alt="" />
+          <h4>Dark Ash Female Sandal</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$10.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./Image/shoe3.jpg" alt="" />
+          <h4>Black Shoe</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$10.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./Image/sand1.jpg" alt="" />
+          <h4>Black Male Sandal</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$10.00</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Offer -->
+    <div class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img src="./Image/shoe4.jpg" class="offer-img" />
+          </div>
+          <div class="col-2">
+            <p>Exclusively Available on A.R.E</p>
+            <h1>Smart Shoe 4</h1>
+            <small>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea qui
+              et distinctio ad aut, accusamus quisquam delectus recusandae rerum
+              tempora.
+            </small>
+            <a href="#" class="btn">Buy Now &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonial Section -->
+    <div class="testimonial">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+              numquam adipisci non doloremque laudantium repellat magni
+              voluptates eos, nobis repudiandae incidunt ut ipsam asperiores
+              provident nesciunt dicta! Expedita, repellat deserunt?
+            </p>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <img src="./Image/comp1.jpg" alt="" />
+            <h3>Sean Parker</h3>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+              numquam adipisci non doloremque laudantium repellat magni
+              voluptates eos, nobis repudiandae incidunt ut ipsam asperiores
+              provident nesciunt dicta! Expedita, repellat deserunt?
+            </p>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <img src="./Image/comp2.jpg" alt="" />
+            <h3>Mabel Joe</h3>
+          </div>
+
+          <div class="col-3">
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+              numquam adipisci non doloremque laudantium repellat magni
+              voluptates eos, nobis repudiandae incidunt ut ipsam asperiores
+              provident nesciunt dicta! Expedita, repellat deserunt?
+            </p>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <img src="./Image/comp3.jpg" alt="" />
+            <h3>Mike Smith</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Brands Section -->
+    <div class="brands">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5">
+            <img src="./Image/logo1.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="./Image/logo2.jfif" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="./Image/logo3.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="./Image/logo4.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="./Image/logo5.jfif" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android and ios mobile phone</p>
+            <div class="app-logo">
+              <img src="./Image/play-store.png" alt="" />
+              <img src="./Image/app-store.png" alt="" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="./Image/logo.ico" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+              impedit voluptatum ducimus nulla dolore ipsa.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p class="copyright">Copyright 2023 - ELETUTECH</p>
+    </div>
+
+    <!-- Js Toggle menu -->
+    <script>
+      let menuItems = document.getElementById("menuItems");
+
+      menuItems.style.maxHeight = "0px";
+
+      const menuToggle = () => {
+        if (menuItems.style.maxHeight === "0px") {
+          menuItems.style.maxHeight = "200px";
+        } else {
+          menuItems.style.maxHeight = "0px";
+        }
+      };
+    </script>
+  </body>
+</html>
